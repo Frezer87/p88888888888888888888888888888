@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".DoubleElim16ply">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="715dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/notifi_16_1"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/notifi_16_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/notifi_16_3"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/notifi_16_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout> <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/notifi_16_5"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/notifi_16_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout> <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/notifi_16_7"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/notifi_16_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Enter Scores:"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_1"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_9"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_2"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_10"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_3"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_11"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_4"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_12"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_5"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_13"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_6"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_14"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_7"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_15"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_8"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/player16_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/scoPlayer16_16"
+                    android:textSize="15dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/colorAccent"
+                    android:ems="10"
+                    android:hint="score"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/eight_W_E_L"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/sheplogin"
+                android:text="Check Eight winner"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/getEight_W_L"
+                android:layout_width="180dp"
+                android:gravity="center"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:background="@drawable/sheplogin"
+                android:text="go to next 16"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

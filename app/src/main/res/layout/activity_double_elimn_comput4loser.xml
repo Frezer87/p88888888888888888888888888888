@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".DoubleElimnComput4loser">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="700dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Enter Semi Final Scores:"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/info_41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/info_42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/player4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/scoPlayer4_1"
+                android:textSize="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="10"
+                android:hint="score"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/player4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/scoPlayer4_2"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="10"
+                android:hint="score"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/player4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/scoPlayer4_3"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="10"
+                android:hint="score"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/player4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/scoPlayer4_4"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="10"
+                android:hint="score"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/goToSemiWinner"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/sheplogin"
+            android:text="Check the winner"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/goToFinal_4"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/sheplogin"
+            android:text="go to the final"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

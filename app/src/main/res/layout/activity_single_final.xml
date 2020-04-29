@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".singleFinal">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="700dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notification1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Enter Final Scores :"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/scoPlayer1"
+            android:textSize="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="3dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="number"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/player2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/scoPlayer2"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="10"
+                android:hint="score"
+                android:inputType="number"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/goToWinner"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/sheplogin"
+            android:text="Check the winner"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

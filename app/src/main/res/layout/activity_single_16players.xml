@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".Single_16players">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="700dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/notifi_16_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Enter player/team names:"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_1"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_9"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 9"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_2"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_10"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 10"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_3"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 3"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_11"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 11"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_4"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_12"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 12"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_5"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 5"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_13"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 13"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_6"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 6"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_14"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 14"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_7"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 7"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_15"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 15"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/name16_8"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 8"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name16_16"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="3dp"
+                android:ems="10"
+                android:hint="Player 16"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/goToFirstFinal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/sheplogin"
+            android:text="next"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
